@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aulaDez {
+  background-color: brown;
+}
+
+.aulaDez .aulaDez__title {
+  color: white;
+}
+.aulaDez .aulaDez__paragrafo {
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.aulaDez .aulaDez__paragrafo.aulaDez__paragrafo--verde {
+  color: green;
+  font-size: larger;
+}
+
+.aulaDez .aulaDez__paragrafo.aulaDez__paragrafo--vermelho {
+  color: red;
+  font-size: larger;
+}
+
+.aulaDez .aulaDez__redirecionar {
+  text-decoration: none;
+  color: white;
+}
+
+.secaoDois {
+  font-size: larger;
+}
+.secaoDois .secaoDois__title {
+  margin-top: 25px;
+  margin: 25px;
+  color: blue;
+}

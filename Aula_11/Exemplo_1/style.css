@@ -1,0 +1,105 @@
+.container .container__title {
+  color: brown;
+  font-size: 25px;
+  background-color: cadetblue;
+}
+
+.container .container__title:hover {
+  color: blue;
+  font-size: 50px;
+  background-color: white;
+}
+
+.active .active__link:active {
+  color: brown;
+  font-size: 40px;
+}
+
+.formulario .formulario__focus:focus {
+  padding: 15px;
+  border: 5px solid brown;
+}
+
+.formulario .formulario__focus::placeholder {
+  color: gold;
+}
+
+.lista .lista__frutas li:first-child {
+  color: red;
+}
+
+.lista .lista__frutas li:nth-child(2) {
+  color: green;
+}
+
+.lista .lista__frutas li:nth-child(3) {
+  color: blue;
+}
+
+.lista .lista__frutas li:last-child {
+  color: orange;
+}
+
+ul:first-of-type {
+  font-size: 20px;
+  padding: 20px;
+}
+
+ul:last-of-type {
+  font-size: 15px;
+  background-color: palevioletred;
+}
+
+ul:not(.lista__frutas) {
+  color: orange;
+}
+
+option:checked {
+  background-color: red;
+}
+
+option:disabled {
+  background-color: gray;
+}
+
+input[type='email']:invalid {
+  background-color: red;
+}
+
+input[type='email']:valid {
+  background-color: green;
+}
+
+input:required {
+  background-color: brown;
+}
+
+p::before {
+  content: 'Início ';
+  color: pink;
+}
+
+p::after {
+  content: ' Final';
+  color: violet;
+}
+
+p::first-letter {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-size: 25px;
+}
+
+p::selection {
+  color: yellow;
+  background-color: blueviolet;
+}
+
+.lista__frutas li::marker {
+  color: forestgreen;
+  font-size: 30px;
+}

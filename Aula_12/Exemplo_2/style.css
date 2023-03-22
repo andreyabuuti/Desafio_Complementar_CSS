@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.container {
+  padding: 25px 0;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.box1 {
+  background-color: #ff07ab;
+  transition: 0.5s;
+}
+
+.box1:hover {
+  transform: translate(20px, 30px);
+}
+
+.box2 {
+  background-color: #e7443a;
+  transition: 0.5s;
+}
+
+.box2:hover {
+  transform: rotate(45deg);
+  background-color: bisque;
+}
+
+.box3 {
+  background-color: #0f0d74;
+  transition: 0.5s;
+}
+
+.box3:hover {
+  transform: rotateX(135deg);
+}
+
+.box4 {
+  background-color: #cd3520;
+  transition: 0.5s;
+}
+
+.box4:hover {
+  transform: rotateY(30deg);
+}
+
+.box5 {
+  background-color: #07ffa6;
+  transition: 0.5s;
+}
+
+.box5:hover {
+  transform: rotateZ(68deg);
+}
